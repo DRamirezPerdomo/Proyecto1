@@ -39,3 +39,46 @@
     border-radius: 20px;
     width: 100%;
   }
+  
+  #Hummus  {
+    width: 100%;
+    height: 550px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  main {
+    margin: 40px 0px 10px 40px;
+    background-color: white;
+    grid-area: main;
+    border-radius: 20px;
+  }
+  
+  .logo {
+    text-align: left;
+    padding: 40px;
+    margin-left: 0;
+  }
+  aside {
+    background-color: #f3e5d8;
+    margin: 20px;
+    grid-area: aside;
+  
+  }
+  h1,
+  h2,
+  p {
+    margin: 20px;
+    margin-right: 20px;
+  }
+  
+  td,
+  tr {
+    padding: 2px;
+    border-bottom: 1px solid black;
+     text-align: justify;
+    margin-top: 5px;
+    width: 91%;
+    
+       }
+  
