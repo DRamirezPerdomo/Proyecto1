@@ -39,3 +39,86 @@
     border-radius: 20px;
     width: 100%;
   }
+  #Shawarma  {
+    width: 100%;
+    height: 550px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  main {
+    margin: 40px 0px 10px 40px;
+    background-color: white;
+    grid-area: main;
+    border-radius: 20px;
+  }
+    
+  .logo {
+    text-align: left;
+    padding: 40px;
+    margin-left: 0;
+  }
+  aside {
+    background-color: #f3e5d8;
+    margin: 20px;
+    grid-area: aside;
+  
+  }
+  h1,
+  h2,
+  p {
+    margin: 20px;
+    margin-right: 20px;
+  }
+  
+  td,
+  tr {
+    padding: 2px;
+    border-bottom: 1px solid black;
+     text-align: justify;
+    margin-top: 5px;
+    width: 90%;
+    
+   }
+    
+   #side {
+    
+    background-color: white;
+    border-radius: 20px;
+   }
+  
+   #secondsize {
+    background-color: white;
+    border-radius: 20px;
+   }
+   .masrecetas {
+    display: flex;
+   }
+   .masimagenes {
+    height: 1000px;
+    width: 20px;
+   }
+   section {
+    background-color: white;
+    margin-bottom: 0px;
+   }
+  
+   .masimg {
+    width: 30%;
+    margin-bottom: 20px;
+    height: 150px;
+  }
+  .masrecetas {
+    margin: 20px;
+  }
+  
+  h3, p{
+    display:block;
+    margin: 20px;
+    }
+  .linesize {
+    gap: 0px;
+  }
+   h1, h2, h3 {
+    color: brown;
+   }
