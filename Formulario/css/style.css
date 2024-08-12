@@ -77,18 +77,18 @@ button {
 }
 
 footer {
-    background-color: #255538;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: footer;
-    border-radius: 20px;
-    height: 100px;
-     }
+  background-color: #255538;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: footer;
+  border-radius: 20px;
+  height: 100px;
+   }
 
-     #contenido {
-        color: white;
-        margin-right: 20px;
-     }
+   #contenido {
+      color: white;
+      margin-right: 20px;
+   }
 
-    
+  
