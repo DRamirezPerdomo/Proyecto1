@@ -1,0 +1,16 @@
+* {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+grid {
+  display: grid;
+  height: 100vh;
+  background-color: #f3e5d8;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
