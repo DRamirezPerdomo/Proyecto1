@@ -14,3 +14,109 @@ grid {
     "main main main"
     "footer footer footer";
 }
+body {
+  background-color: #f3e5d8;
+}
+
+header {
+  background-color: #255538;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: header;
+  border-radius: 20px;
+  width: 100%;
+}
+.logo {
+  padding: 20px;
+  margin-left: 0px;
+}
+#Receta {
+  color: white;
+  margin-right: 40px;
+}
+
+#Imagen_Principal {
+  width: 100%;
+  height: 300px;
+  border-radius: 20px;
+}
+
+main {
+  margin-top: 20px;
+  background-color: #f3e5d8;
+  grid-area: main;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+h1 {
+  color: brown;
+  margin-top: 10px;
+}
+
+.Secundarios {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  margin-right: 0px;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.Secundarios2 {
+  width: 100%;
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  margin-right: 0px;
+  align-content: center;
+  border-radius: 20px;
+}
+
+.Imagenes_secundarias {
+  width: 300px;
+  height: 200px;
+  align-content: center;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-right: 25px;
+  border-radius: 20px;
+}
+
+h2,
+ul {
+  align-content: center;
+  padding: 0px;
+  margin-left: 20px;
+}
+ul {
+  margin-top: 0px;
+}
+h2 {
+  color: brown;
+}
+
+section {
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: white;
+  border-radius: 20px;
+  border-style: solid;
+  width: 33%;
+}
+footer {
+  background-color: #255538;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: footer;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#contenido {
+  color: white;
+  margin-right: 40px;
+}
