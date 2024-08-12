@@ -123,3 +123,13 @@
    h1, h2, h3 {
     color: brown;
    }
+   footer {
+    background-color: #255538;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: footer;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
