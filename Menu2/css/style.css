@@ -1,0 +1,41 @@
+* {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  body {
+    background-color: #f3e5d8;
+  }
+  #grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    background-color: #f3e5d8;
+    grid-template-areas:
+      "header header header"
+      "main main aside"
+      "footer footer footer";
+  }
+  
+  #Receta,
+  #contenido {
+    color: white;
+    margin-right: 20px;
+  }
+  
+  #contenido {
+    margin-top: 50px;
+  }
+  
+  header {
+    background-color: #255538;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: header;
+    border-radius: 20px;
+    width: 100%;
+  }
