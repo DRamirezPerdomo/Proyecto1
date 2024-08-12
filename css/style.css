@@ -120,3 +120,12 @@ footer {
   color: white;
   margin-right: 40px;
 }
+.Botones {
+  background-color: #255538;
+  color: white;
+  padding: 10px;
+  display: flex;
+  border-radius: 15px;
+  font-size: 4em;
+  
+}
